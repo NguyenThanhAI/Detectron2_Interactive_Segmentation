@@ -59,5 +59,5 @@ if __name__ == '__main__':
     vis = Visualizer(img[:, :, ::-1])
     out = vis.draw_instance_predictions(outputs[0]["instances"].to("cpu"))
 
-    plt.imshow("Result", out.get_image())
+    plt.imshow(out.get_image())
     plt.show()
