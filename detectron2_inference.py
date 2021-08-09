@@ -13,7 +13,7 @@ from detectron2 import model_zoo
 from detectron2.config import get_cfg
 from detectron2.modeling import build_model
 from detectron2.checkpoint import DetectionCheckpointer
-from detectron2.engines import DefaultTrainer
+from detectron2.engine import DefaultTrainer
 from detectron2.utils.visualizer import Visualizer
 
 
